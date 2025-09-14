@@ -10,7 +10,7 @@ Documentação oficial do sistema, aqui serão mostradas informações como requ
 |------|----------------------------|-----------|
 | RF01 | Blog de notícias           | O sistema deve permitir a publicação, edição e exclusão de notícias. |
 | RF02 | CRUD de atletas            | O sistema deve possibilitar criar, visualizar, editar e excluir registros de atletas. |
-| RF03 | Página individual de atleta | O sistema deve exibir uma página dedicada para cada atleta, com seus dados e histórico. |
+| RF03 | Página para cada atleta    | O sistema deve exibir uma página dedicada para cada atleta, com seus dados e histórico. |
 | RF04 | CRUD de times              | O sistema deve permitir gerenciar times, divididos por ano e categoria. |
 | RF05 | Associação atletas x times | O sistema deve permitir vincular atletas a um time específico. |
 | RF06 | História do clube          | O sistema deve disponibilizar uma seção com informações históricas do clube. |
@@ -25,11 +25,9 @@ Documentação oficial do sistema, aqui serão mostradas informações como requ
 | ID   | Requisito Não Funcional     | Descrição |
 |------|-----------------------------|-----------|
 | RNF01 | Usabilidade               | O sistema deve possuir uma interface simples e intuitiva, acessível a usuários não técnicos. |
-| RNF02 | Performance               | O sistema deve responder às ações do usuário em até 2 segundos para operações comuns. |
-| RNF03 | Segurança                 | O sistema deve armazenar senhas criptografadas e proteger dados de atletas. |
-| RNF04 | Disponibilidade           | O sistema deve estar disponível em 95% do tempo, exceto durante manutenções programadas. |
-| RNF05 | Escalabilidade            | O sistema deve permitir futuras expansões (novos módulos, mais usuários). |
-| RNF06 | Compatibilidade           | O sistema deve ser acessível via navegadores modernos (Chrome, Firefox, Edge). |
-| RNF07 | Portabilidade             | O sistema deve ser responsivo, acessível em computadores, tablets e celulares. |
-| RNF08 | Manutenibilidade          | O código deve ser organizado, com separação clara entre frontend, backend e banco de dados. |
-| RNF09 | Personalização            | O sistema deve permitir total personalização de identidade visual (cores, logos, estrutura e layout). |
+| RNF02 | Tecnologia                | O sistema deve ser desenvolvido usando: Python com Django no back-end; HTML, CSS e JavaScript no front-end.
+| RNF03 | Segurança                 | O sistema deve armazenar senhas criptografadas pelo Django e proteger os dados dos usuários. |
+| RNF04 | Compatibilidade           | O sistema deve ser acessível via navegadores modernos (Chrome, Firefox, Edge). |
+| RNF05 | Portabilidade             | O sistema deve ser responsivo, acessível em computadores, tablets e celulares. |
+| RNF06 | Manutenibilidade          | O código deve ser organizado, com separação clara entre frontend, backend e banco de dados. |
+| RNF07 | Personalização            | O sistema deve permitir total personalização de identidade visual (cores, logos, estrutura e layout). |
